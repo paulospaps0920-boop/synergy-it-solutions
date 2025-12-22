@@ -29,13 +29,12 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              <span className="text-lg font-bold text-primary-foreground">S</span>
-            </div>
-            <span className="hidden font-heading text-xl font-semibold text-foreground sm:inline-block">
-              Synapse Consulting
-            </span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/synapse-logo.png" 
+              alt="Synapse Consulting" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
