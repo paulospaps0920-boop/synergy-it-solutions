@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="container-custom">
+      <div className="container-custom">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
@@ -36,12 +36,6 @@ const Header = () => {
             <span className="hidden font-heading text-xl font-semibold text-foreground sm:inline-block">
               Synapse Consulting
             </span>
-          <Link to="/" className="flex items-center">
-            <img 
-              src="/synapse-logo.png" 
-              alt="Synapse Consulting" 
-              className="h-10 w-auto"
-            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -71,7 +65,7 @@ const Header = () => {
               className="flex items-center gap-1"
             >
               <Globe className="h-4 w-4" />
-              <img src="Gemini_Generated_Image_rk0birrk0birrk0b" alt="Synapse Consulting Logo" className="h-10" />
+              <span className="text-sm font-medium uppercase">{language}</span>
             </Button>
 
             {/* Mobile Menu Button */}
