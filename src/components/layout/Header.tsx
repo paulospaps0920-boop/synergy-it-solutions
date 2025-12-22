@@ -64,7 +64,7 @@ const Header = () => {
               className="flex items-center gap-1"
             >
               <Globe className="h-4 w-4" />
-              <span className="text-sm font-medium uppercase">{language}</span>
+              <img src="Gemini_Generated_Image_rk0birrk0birrk0b" alt="Synapse Consulting Logo" className="h-10" />
             </Button>
 
             {/* Mobile Menu Button */}
